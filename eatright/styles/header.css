@@ -1,0 +1,60 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+header {
+  position: sticky;
+  top: 0;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  background-image: url(../images/alimentos.jpg);
+  background-repeat: repeat-x; 
+}
+.logo {
+  width: 70px;
+  height: 60px;
+  background: url("../images/icono.png");
+  background-position: center center;
+  background-size: cover;
+  float: left;
+}
+.logo h1 {
+  color: black;
+  font-weight: Bold;
+  font-size: 16px;
+  text-align: center;
+  margin: 15px 0 0;
+}
+.logo h1 a {
+  text-decoration: none;
+  color: inherit;
+}
+header nav {
+  float: right;
+}
+header nav ul {
+  list-style: none;
+  margin: 10px;
+  padding: 0;
+}
+header nav ul li {
+  display: inline-block;
+  margin-left: 10px;
+}
+header nav ul li:first-child {
+  margin-left: 0;
+}
+header nav ul li a {
+  color: black;
+  text-decoration: none;
+  padding: 5px;
+  background: rgba(17,233,78);
+  font-weight: Bold;
+  font-size: 14px;
+  border-radius: 10px;
+}

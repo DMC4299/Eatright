@@ -1,0 +1,14 @@
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+footer p {
+    margin: 10px;
+}
+footer a{
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+}

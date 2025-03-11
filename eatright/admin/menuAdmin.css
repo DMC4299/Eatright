@@ -1,0 +1,58 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 100%;
+  }
+  header {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 0 0 0 0;
+    height: 100vh;
+  }
+  .logo {
+    width: 70px;
+    height: 60px;
+    background: url("../images/v5_12.png");
+    background-position: center center;
+    background-size: cover;
+    float: left;
+  }
+  .logo h1 {
+    color: black;
+    font-weight: Bold;
+    font-size: 16px;
+    text-align: center;
+    margin: 15px 0 0;
+  }
+  .logo h1 a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  header nav ul {
+    list-style: none;
+    margin: 10px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  header nav ul li {
+    margin: 10px;
+  }
+  header nav ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+    background: rgba(17,233,78,0.6200000047683716);
+    font-weight: Bold;
+    font-size: 14px;
+    border-radius: 10px;
+  }
+  

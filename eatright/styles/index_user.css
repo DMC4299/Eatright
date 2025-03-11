@@ -1,0 +1,94 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  float: right;
+  background: radial-gradient(white, aquamarine);  
+}
+.linea1{
+  float: left;
+}
+.linea1 a img{
+  height: 200px;
+  width: 1400px;
+}
+.fecha {
+  display: flex;
+  width: 10%;
+  align-items: center;
+}
+.fecha input {
+  flex: 1;
+  padding: 10px;
+}
+.r-comidas {
+  width: 80%;
+  margin: 1em 0;
+}
+.r-comidas a a:visited {
+  color: #0000ee;
+}
+.header-comida {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.valores {
+  display: flex;
+  gap: 0.2em;
+  width: 70%;
+}
+.valores p { 
+  background-color: #11e94e99;
+  padding: 0.5em;
+  font-weight: bold;
+  flex: 1;
+  text-align: center;
+  border-radius: 10px;
+}
+.add_alimen {
+  text-decoration: none;
+  font-weight: bold;
+}
+.add_alimen:visited {
+  color: #0000ee;
+}
+.content-comida {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid;
+}
+.valores-comida {
+  display: flex;
+  gap: 0.2em;
+  align-content: center;
+  width: 70%;
+}
+.valores-comida p {
+  padding: 0 0.5em;
+  font-weight: bold;
+  text-align: center;
+  flex: 1;
+}
+.resumen-diario {
+  margin-top: 2em;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid;
+}
+.options {
+  display: flex;
+}
+.option {
+  display: flex;
+  align-items: center;
+  margin-left: 0.5em;
+}
+#back-top{
+  position: fixed;
+  bottom: 150px;
+  right: 20px;
+}
+#c2 {
+  background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+}

@@ -1,0 +1,30 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+td {
+  vertical-align:middle;
+}
+.td1{
+  background: linear-gradient(pink, white);
+}
+.td2{
+  background: linear-gradient(greenyellow, white);
+}
+h3 {
+  margin-top: 0;
+}
+img {
+  max-width: 90%;
+}
+.img1 {
+  border: 20px groove greenyellow;
+}
+.img2 {
+  border: 20px outset red;
+}
+.button {
+  font-weight: bold;
+  margin-top: 20px;
+  text-shadow: 2px 2px 5px white;
+} 

@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  background: rgba(205,252,159,1);
+  font-size: 14px;
+  height: 100vh;
+}
+.fondo {
+  width: 500px;
+  height: 819px;
+  background: url("../images/v4_3.png");
+  background-position: center center;
+  background-size: cover;
+  box-shadow: 20px 20px 25px rgba(0, 0, 0, 0.25);
+  margin: 0 auto;
+}
+.logo {
+  width: 300px;
+  height: 245px;
+  background: url("../images/icono\ transparente.png");
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+  top: 30px;
+  left: 100px;
+}
+.titulo {
+  position: relative;
+  bottom: 30px;
+  left: 130px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 50px;
+}
+.login_button {
+  width: 354px;
+  height: 69px;
+  background: rgba(255,255,255,0.41999998688697815);
+  position: relative;
+  top: 70px;
+  left: 80px;
+  border-radius: 10px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 24px;
+  text-align: center;
+}
+.password_button {
+  width: 354px;
+  height: 69px;
+  background: rgba(255,255,255,0.41999998688697815);
+  position: relative;
+  top: 110px;
+  left: 80px;
+  border-radius: 10px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 24px;
+  text-align: center;
+}
+.inicia_sesion_button {
+  width: 195px;
+  height: 61px;
+  background: rgba(17,233,78,0.6200000047683716);
+  position: relative;
+  top: 150px;
+  left: 150px;
+  border-radius: 10px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 24px;
+}
+.back {
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 20px;
+  border-radius: 10px;
+  background: rgba(17,233,78,0.6200000047683716);
+  position: relative;
+  top: 260px;
+  right: 50px;
+  width: 195px;
+  height: 61px;
+}
+.password_button::placeholder,
+.login_button::placeholder{
+  font-weight: bold;
+  text-shadow: 2px 2px 5px greenyellow;
+}

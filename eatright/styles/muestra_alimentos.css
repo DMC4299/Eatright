@@ -1,0 +1,87 @@
+body {
+    background: radial-gradient(white, aquamarine);
+    font-weight: bold;    
+}
+#alimentos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+fieldset {
+    text-align: center;
+    padding: 20px;
+    border: none;
+}
+label {
+    margin-bottom: 10px;
+}
+input[type="submit"],
+input[type="reset"] {
+  padding: 8px 16px;
+  background-color:  rgba(17,233,78,0.6200000047683716);;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  font-weight: Bold;
+}
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+  background-color: #45a049;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 1.5;
+    border-radius: 10px 10px 0 0;
+}
+th,
+td {
+    padding: 12px;
+    text-align: center;
+    vertical-align: middle;
+    border-bottom: 1px solid black;
+}
+.color1 {
+    background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+}
+.color2 {
+    background: linear-gradient(to right, #74ebd5, #c2cdff);
+}
+.indice{
+    background-color: rgb(255, 255, 165);
+    border-radius: 10px 10px 0 0;
+}
+.borde1{
+    border-top-left-radius: 15px;
+}
+.borde2{
+    border-top-right-radius: 15px;
+}
+.paginacion {
+    background-color: rgb(136, 222, 251);
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border-radius: 0 0 10px 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.paginacion p {
+    margin: 0 auto;
+    display: inline-block;
+    flex: 1;
+    text-align: center;
+}
+.paginacion a {
+    text-decoration: none;
+}
+.paginacion a:visited {
+    color: blue
+}

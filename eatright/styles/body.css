@@ -1,0 +1,24 @@
+  table td {
+    padding: 50px;
+    text-align: center;
+    width: 700px;
+    font-size: 20px;
+  }
+  table img {
+    width: 700px; 
+    height: auto; 
+  }
+  .button {
+    text-align: center;
+    padding: 60px;
+  }
+  .button a {
+    padding: 24px 48px; 
+    font-size: 36px;
+    background-color: rgb(38, 238, 38); 
+    border-radius: 10px;
+    text-decoration: none;
+  }
+  .button a:active {
+    color: white; 
+  }
